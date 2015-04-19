@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="notes" ng-controller="MainCtrl">
+  <head>
+    <title>Notes</title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="/styles/importer.css">
+    <!--STYLES END-->
+  </head>
+
+  <body>
+    <%- body %>
+
+    <!--TEMPLATES-->
+    <script type="text/javascript" src="/jst.js"></script>
+    <!--TEMPLATES END-->
+
+    <!--SCRIPTS-->
+    <script src="/bower/sails.io.js/dist/sails.io.js"></script>
+    <script src="/bower/angular/angular.js"></script>
+    <script src="/bower/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="/bower/angular-translate/angular-translate.js"></script>
+    <script src="/bower/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/controller/MainCtrl.js"></script>
+    <script src="/js/controller/WelcomeCtrl.js"></script>
+    <script src="/js/routes.js"></script>
+    <!--SCRIPTS END-->
+  </body>
+</html>
